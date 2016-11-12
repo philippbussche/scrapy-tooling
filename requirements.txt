@@ -1,0 +1,8 @@
+elasticsearch < 2.0.0
+Scrapy == 0.24.6
+# had to upgrade w3lib and pyOpenSSL for my Scrapy setup to work so mentioning it here too
+# pip install --upgrade w3lib
+# pip install --upgrade pyOpenSSL
+ScrapyElasticSearch < 0.7
+requests_aws4auth
+pykafka
